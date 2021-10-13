@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
-export const Home = () => {
+export const Home = ( { firstMeal, secondMeal, thirdMeal }) => {
     return (
         <div>
             <h1>My Favourite Foods</h1>
             <ul>
-                <li>Eggs</li>
-                <li>Pasta</li>
-                <li>Queijo Coalho</li>
+                <li> { firstMeal } </li>
+                <li> { secondMeal } </li>
+                <li> { thirdMeal } </li>
             </ul>
         </div>
     )
