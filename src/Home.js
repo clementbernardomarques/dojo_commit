@@ -14,6 +14,8 @@ export const Home = ( { firstMeal, secondMeal, thirdMeal }) => {
                     <li>{secondMeal}</li>
                     <li>{thirdMeal}</li>
                 </ul>
+            <p> And You ? </p>
+            <input type="text" name="name" />
             </div>
         </div>
     )
