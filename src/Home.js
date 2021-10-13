@@ -7,7 +7,7 @@ export const Home = ( { firstMeal, secondMeal, thirdMeal }) => {
     return (
         <div>
             <h1>My Favourite Foods</h1>
-            <button onClick={() => {updateShowList(!showList);}}>Show me</button>
+            <button onClick={() => {updateShowList(!showList);}}>{showList ? "Hide It" : "Show Me"}</button>
             <div style={{display: showList ? "" : "none"}}>
                 <ul>
                     <li>{firstMeal}</li>
